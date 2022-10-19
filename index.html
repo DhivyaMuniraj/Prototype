@@ -17,6 +17,7 @@ let details={
     place:"Erode"
 
 }
+//First Approach
 //  Object.prototype.myOwnProperty=function(n){
 //     // const a=Object.keys(carl);
 //     var keys=Object.keys(this);
@@ -31,7 +32,7 @@ let details={
 //  var result=carl.myOwnProperty("city");
 //  console.log(result);
 
- //2
+ //second approach
  Object.prototype.myOwnProperty=function(n){
    return (Object.keys(this).includes(n))?true:false;
     
